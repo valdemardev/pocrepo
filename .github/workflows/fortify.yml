@@ -75,9 +75,9 @@ jobs:
         env:
           FOD_URL: "https://ams.fortify.com/"
           FOD_API_URL: "https://api.ams.fortify.com/"
-          FOD_TENANT: USP_560225730_FMA_102176655
-          FOD_USER: valdemar.abrao@alumni.usp.br
-          FOD_PAT: VlFqaFNCSkJvMmlxZTZ4OlNpISVURmtjczI2NGho0
+          FOD_TENANT: "USP_560225730_FMA_102176655"
+          FOD_USER: "valdemar.abrao@alumni.usp.br"
+          FOD_PAT: "VlFqaFNCSkJvMmlxZTZ4OlNpISVURmtjczI2NGho0"
           FOD_RELEASE_ID: 1
           FOD_UPLOADER_OPTS: "-ep 2 -pp 0 -I 1 -apf"
           FOD_UPLOADER_NOTES: 'Triggered by GitHub Actions (${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})'
@@ -87,9 +87,9 @@ jobs:
         uses: fortify/gha-export-vulnerabilities@fcb374411cff9809028c911dabb8b57dbdae623b
         with:
           fod_base_url: "https://ams.fortify.com/"
-          fod_tenant: USP_560225730_FMA_102176655
-          fod_user: valdemar.abrao@alumni.usp.br
-          fod_password: VlFqaFNCSkJvMmlxZTZ4OlNpISVURmtjczI2NGho0
+          fod_tenant: "USP_560225730_FMA_102176655"
+          fod_user: "valdemar.abrao@alumni.usp.br"
+          fod_password: "VlFqaFNCSkJvMmlxZTZ4OlNpISVURmtjczI2NGho0"
           fod_release_id: 1
 
       # Import Fortify on Demand results to GitHub Security Code Scanning
