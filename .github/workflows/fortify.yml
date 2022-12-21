@@ -76,7 +76,7 @@ jobs:
           FOD_URL: "https://ams.fortify.com/"
           FOD_API_URL: "https://api.ams.fortify.com/"
           FOD_TENANT: "USP_560225730_FMA_102176655"
-          FOD_USER: "valdemar.abrao@alumni.usp.br"
+          FOD_USER: "Valdemar"
           FOD_PAT: "VlFqaFNCSkJvMmlxZTZ4OlNpISVURmtjczI2NGho0"
           FOD_RELEASE_ID: 1
           FOD_UPLOADER_OPTS: "-ep 2 -pp 0 -I 1 -apf"
@@ -88,7 +88,7 @@ jobs:
         with:
           fod_base_url: "https://ams.fortify.com/"
           fod_tenant: "USP_560225730_FMA_102176655"
-          fod_user: "valdemar.abrao@alumni.usp.br"
+          fod_user: "Valdemar"
           fod_password: "VlFqaFNCSkJvMmlxZTZ4OlNpISVURmtjczI2NGho0"
           fod_release_id: 1
 
